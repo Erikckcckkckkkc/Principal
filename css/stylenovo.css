@@ -2,8 +2,16 @@ body{
     background: linear-gradient(120deg, #69fff3 25%, #3fff69 100%);
 }
 
+main{
+    display: flex;
+    padding-top: 80px;
+}
+
 .header{
     padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .links{
@@ -46,7 +54,6 @@ body{
     padding: 5px;
 }
 
-
 .span-1, .span-2{
     font-weight: bold;
     font-size: x-large;
@@ -73,7 +80,21 @@ footer {
     text-align: justify;
     columns: 3;
     font-weight: bold;
-    margin:50px;
+    margin:10px;
+}
+
+.secao-1 h1{
+    font-weight: bold;
+}
+
+.secao-1 h2{
+    font-weight: lighter;
+    color: #e605d3;
+    margin-top: 10px;
+}
+
+h2{
+    margin-top: 20px;
 }
 
 .secao-1{
@@ -102,15 +123,6 @@ footer {
     margin-top: 50px;
 }
 
-.secao-1 h1{
-    font-weight: bold;
-}
-
-.secao-1 h2{
-    font-weight: lighter;
-    color: #e605d3;
-}
-
 img{
     width: 400px;
     margin: 0 auto;
@@ -125,10 +137,6 @@ img{
     border-radius: 100%;
 }
 
-h2{
-    padding: 10px;
-}
-
 h1{
     text-align: center;
     padding: 15px;
@@ -139,14 +147,6 @@ h3{
     font-size: 50px;
 }
 
-.campobox{
-    width: 33%;
-}
-
-.tabela{
-    padding: 20px;
-}
-
 button{
     padding: 20px;
     margin-left: 40px;
@@ -154,4 +154,9 @@ button{
 
 .btn btn-info{
     size: 50px;
+}
+
+.mySlides{
+    width: 300px;
+    height: 300px;
 }
